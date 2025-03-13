@@ -217,10 +217,9 @@ body {
     color: #ffffff;
     font-weight: 700;
 }
-.card-projeto{
-    /*width: 365px;*/
+.card-projeto{ 
     max-width: 365px;
-    width:90%;/*apagar*/
+    width:90%;
     height: 254px;
     background-color: #2D82B7;  
     border-radius: 14px;
@@ -230,8 +229,8 @@ body {
     background-position: right bottom;
 }
 .rodape {
-   width: 100%;/*apagar*/ 
-   padding: 40px 20px;/*apagar*/
+   width: 100%;
+   padding: 40px 20px;
    height: 392px; 
    background-color: rgba(45, 130, 183, 0.2);
    background-image: url('../imagens/logo2-maior.png');
