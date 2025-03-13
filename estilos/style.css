@@ -16,8 +16,9 @@
 body {
     background-color: #161616; 
     
-    
+      
 }
+
 
 .cabecalho {
     font-family: "Bai Jamjuree", sans-serif;
@@ -60,6 +61,8 @@ body {
 .conteudo-principal-titulo{
     font-size: 42px;
     width: 419px;
+    text-align: center;
+    
 }
     
 
@@ -69,11 +72,12 @@ body {
     margin-top: 20px;
     font-size: 22px;
     text-align: justify;
+    
 }
 
 .conteudo-secundario {
     background-color: #2D82B7;
-    width: 1216PX;
+    width: 1216px;
     height: 517px;
     display: flex;
     flex-flow: column wrap;
@@ -145,6 +149,8 @@ body {
 
 .skill-img {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 30px;
     margin-bottom: 100px;
 }
@@ -152,7 +158,7 @@ body {
 .projeto{
     width: 1200px;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     margin: auto;  
@@ -162,6 +168,7 @@ body {
     color:#ffffff;
     font-family: "Ubuntu Mono", monospace;
     font-weight:700;
+    
 }
 
 .subtitulo-card-projeto{
@@ -178,6 +185,7 @@ body {
     align-items: center;
     gap: 30px;
     padding-top: 100px;
+    margin-bottom: 100px;
 }
 
 .paragrafo-card-projeto{
