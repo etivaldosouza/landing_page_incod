@@ -15,25 +15,27 @@
 
 body {
     background-color: #161616; 
-    
-      
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
 }
 
 
 .cabecalho {
     font-family: "Bai Jamjuree", sans-serif;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row; 
     align-items: center;
     justify-content: space-around;
-    padding: 24px;
+    padding: 16px;
     
 }
 
 .menu{
     display: flex;
-    gap: 32px;
-    font-size: 22px; 
+    flex-wrap: wrap; 
+    gap: 16px;
+    font-size: 18px; 
 }
 
 .menu > a {
@@ -48,38 +50,43 @@ body {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    text-align: center;/*apagar*/
     color: #ffffff;
     font-weight: bolder;
-    padding: 200px;
+    padding: 100px 20px;/*200px*/
     border-top: 0.4px solid white;
     background-image: url('../imagens/logo2-maior.png');
     background-repeat: no-repeat;
     background-position: right;
-    background-size: auto;
+    background-size: auto; 
     
 }
 
 .conteudo-principal-titulo{
-    font-size: 42px;
-    width: 419px;
+    font-size: 36px;/*42px*/
+    max-width: 100%;/*width:419px*/
     text-align: center;
     
 }
     
 
 .conteudo-principal-paragrafo {
-    width: 864px;
-    line-height: 32px;
-    margin-top: 20px;
-    font-size: 22px;
+   max-width: 90%;/*width: 864px*/
+    line-height: 28px;/*32px*/
+    /*margin-top: 20px;*/
+    font-size: 18px;/*22px*/
     text-align: justify;
     
 }
 
 .conteudo-secundario {
     background-color: #2D82B7;
-    width: 1216px;
-    height: 517px;
+    width: 90%;/*width: 1216px*/
+    max-width: 1216px;
+    height: auto;/*apagar*/
+    padding: 30px;/*apagar*/
+    /*height: 517px;*/
+    text-align: center;/*apagar*/
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -106,16 +113,20 @@ body {
 }
 .card-pai {
     display: flex;
+    flex-wrap: wrap;/*apagar*/
     gap: 20px;
-    
+    justify-content: center;/*apagar*/
+    margin-top: 20px;/*apagar*/
     position: relative;
     top:100px;
     
 }
 .card {
-    width: 365px;
+    width: 90%;/*width: 365px;*/
+    max-width: 365px;/*apagar*/
     background-color: #ffffff;
-    height: 245px;
+    height: auto;/*height: 245px*/
+    padding: 20px;/*apagar*/
     border-radius: 14px;
     
 }
@@ -153,19 +164,23 @@ body {
 
 .skill-img {
     display: flex;
+    flex-wrap: wrap; /*apagar*/
     align-items: center;
     justify-content: center;
     gap: 30px;
     margin-bottom: 100px;
+    
 }
 
 .projeto{
-    width: 1200px;
+    width: 90%;/*width: 1200px*/
+    max-width: 1200px;/*apagar*/
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    margin: auto;  
+    margin: auto;*/  
+    text-align: center;/*apagar*/
 }
 .titulo-card-projeto {
     font-size: 42px;
@@ -186,10 +201,11 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: center;
-    gap: 30px;
-    padding-top: 100px;
-    margin-bottom: 100px;
+    /*align-items: center;*/
+    gap: 20px;/*gap: 30px;*/
+    /*padding-top: 100px;
+    margin-bottom: 100px;*/
+    padding: 50px 0;/*apagar*/
 }
 
 .paragrafo-card-projeto{
@@ -202,12 +218,20 @@ body {
     font-weight: 700;
 }
 .card-projeto{
-    width: 365px;
+    /*width: 365px;*/
+    max-width: 365px;
+    width:90%;/*apagar*/
     height: 254px;
     background-color: #2D82B7;  
-    border-radius: 14px; 
+    border-radius: 14px;
+    background-image: url('../imagens/Robot.png'); 
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right bottom;
 }
 .rodape {
+   width: 100%;/*apagar*/ 
+   padding: 40px 20px;/*apagar*/
    height: 392px; 
    background-color: rgba(45, 130, 183, 0.2);
    background-image: url('../imagens/logo2-maior.png');
@@ -216,7 +240,7 @@ body {
    background-size: auto;
    display: flex;
    flex-flow: column wrap;
-   align-items:center ;
+   align-items:center;
    justify-content: center;
    gap: 30px;
    
