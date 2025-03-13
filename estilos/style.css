@@ -27,6 +27,7 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 24px;
+    
 }
 
 .menu{
@@ -106,6 +107,9 @@ body {
 .card-pai {
     display: flex;
     gap: 20px;
+    
+    position: relative;
+    top:100px;
     
 }
 .card {
